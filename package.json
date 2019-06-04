@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome ./myTests"
+    "test": "testcafe chrome ./myTests",
+    "test2": "testcafe chrome ./endToEndExample"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "testcafe": "^1.2.0"
+    
   }
 }
