@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "testcafe chrome ./myTests",
-    "test2": "testcafe chrome ./endToEndExample"
+    "test2": "testcafe chrome ./endToEndExample",
+    "test3": "testcafe chrome ./SpiceJet"
+
   },
   "author": "",
   "license": "ISC",

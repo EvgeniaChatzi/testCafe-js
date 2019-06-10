@@ -18,7 +18,8 @@ test ('user forgot the password testcase', async t => {
 
     //actions
   
-    await t.click(navbarPage.signInButton)
+    // await t.click(navbarPage.signInButton)
+    navbarPage.clickTheSighInButton()
     await t.click(forgotPasswordButton)
     await t.typeText(email, 'test@email.com', {paste: true})
     await t.click(sendPassword)

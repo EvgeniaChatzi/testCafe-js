@@ -13,5 +13,9 @@ class NavbarPage  {
        .typeText(this.searchBox, text,{paste:true, replace: true})
        .pressKey('enter')
     }
+
+    async clickTheSighInButton() {
+        await t.click(this.signInButton)
+    }
 }
 export default NavbarPage
