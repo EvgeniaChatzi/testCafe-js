@@ -18,7 +18,7 @@ class SearchFlightPage  {
         this.passangersField = Selector('#divpaxinfo')
         this.addAdultButton = Selector('#hrefIncAdt')
         this.currencySelect = Selector('#ControlGroupSearchView_AvailabilitySearchInputSearchView_DropDownListCurrency')
-        this.currencyOption = Selector(currencySelect.find('option'))
+        this.currencyOption = currencySelect.find('option')
 
     }
 
